@@ -19,6 +19,9 @@ body{
    background-size: cover;
    height: 79vh;
 }
+body:read-only{
+    transition: all 1s ease-in-out;
+}
 main{
     background-color: var(--cor2);
     width: 400px;
